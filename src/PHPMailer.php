@@ -42,11 +42,7 @@ class PHPMailer
     const CONTENT_TYPE_MULTIPART_MIXED = 'multipart/mixed';
     const CONTENT_TYPE_MULTIPART_RELATED = 'multipart/related';
 
-    const ENCODING_7BIT = '7bit';
-    const ENCODING_8BIT = '8bit';
-    const ENCODING_BASE64 = 'base64';
-    const ENCODING_BINARY = 'binary';
-    const ENCODING_QUOTED_PRINTABLE = 'quoted-printable';
+
 
 
 
