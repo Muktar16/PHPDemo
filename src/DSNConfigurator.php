@@ -38,16 +38,7 @@ class DSNConfigurator
      *
      * @return PHPMailer
      */
-    public static function mailer($dsn, $exceptions = null)
-    {
-        static $configurator = null;
 
-        if (null === $configurator) {
-            $configurator = new DSNConfigurator();
-        }
-
-        return $configurator->configure(new PHPMailer($exceptions), $dsn);
-    }
 
     /**
      * Configure PHPMailer instance with DSN string.
